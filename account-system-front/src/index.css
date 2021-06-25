@@ -1,0 +1,53 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+input.yellow-input + label {
+  color: #ffffff !important;
+}
+input.yellow-input:focus + label {
+  color: #ffeb3b !important;
+}
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btnSubmit {
+  height: 30px;
+  border: 1px solid;
+  background-color: #ffeb3b;
+  color: black;
+  border-radius: 3px;
+}
+.btnSubmit:disabled {
+  height: 30px;
+  border: 1px solid;
+  background-color: #dcdcdc;
+  color: #a9a9a9;
+  border-radius: 3px;
+}
+.forgotPassword {
+  padding-left: 20px;
+}
+.linkReg {
+  margin-left: 20px;
+}
+.linkReg:hover {
+   color: #3f51b5;
+ }
+.links {
+  color: white;
+  margin-left: 20px;
+}
+.links:hover {
+  color: #81d4fa;
+}
+.basic-table {
+  margin-top: 20px;
+}
+

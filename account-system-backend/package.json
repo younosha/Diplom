@@ -1,0 +1,41 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "Family application ",
+  "main": "app.js ",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exceed5/account-system-backend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Kostya Voronin <kvoronin.exceedteam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exceed5/account-system-backend/issues"
+  },
+  "homepage": "https://github.com/Exceed5/account-system-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.14",
+    "pg": "^8.4.2",
+    "query-string": "^6.13.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
